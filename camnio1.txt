@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 cambio2
+=======
+cambio1
+>>>>>>> baseprd
