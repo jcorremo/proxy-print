@@ -5,7 +5,7 @@ function randomString() {
 }
 
 module.exports = function aplazoMocks(req, res) {
-  if (req.method === 'GET' && req.path === '/wm/callback') {
+  if (req.method === 'GET' && req.path === '/wm/callback/customer-offer/initiate') {
     const response = {
       creditLineId: randomString()
     };
